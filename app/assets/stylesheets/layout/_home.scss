@@ -22,7 +22,7 @@
         grid-template-rows: min-content auto;  // Setting second row to auto makes it occupy grid container
         grid-template-columns: repeat(2, [col-start] 1fr [col-end]);
 
-        @media only screen and (max-width: $bp-1290) {  // 1290px
+        @media only screen and (max-width: 80.625em) {  // 1290px
             grid-template-rows: min-content auto;  
         }
 
@@ -51,7 +51,7 @@
 
         justify-items: end;  // Positions photo on the right
 
-        @media only screen and (max-width: $bp-1290) {  // 1290px
+        @media only screen and (max-width: 80.625em) {  // 1290px
             display: none;  // Hides photo
         }
     }
@@ -65,7 +65,7 @@
 
         row-gap: 1.2rem;
 
-        @media only screen and (max-width: $bp-1290) {  // 1290px
+        @media only screen and (max-width: 80.625em) {  // 1290px
             grid-column: col-start 1 / col-end 2;
 
             justify-items: center;

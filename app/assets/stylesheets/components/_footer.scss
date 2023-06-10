@@ -13,7 +13,7 @@
 
         gap: .5rem;
 
-        @media only screen and (max-width: $bp-640) {  // 640px
+        @media only screen and (max-width: 40em) {  // 640px
             gap: .8rem;
         }
 
@@ -62,7 +62,7 @@
 
         gap: .8rem;  // Creates space between links
 
-        @media only screen and (max-width: $bp-640) {  // 640px
+        @media only screen and (max-width: 40em) {  // 640px
             flex-wrap: wrap;
         }
     }
